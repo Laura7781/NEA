@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: oldlace;
+    user-select: none;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: oldlace;
+}
+
+.app {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+
+}
+
+
+.selectedRotorText{
+    text-align: center;
+    width: 3ch;
+}
+
+.header{
+    background-color: brown;
+}
+
+.banner{
+    background-color: burlywood;
+    user-select: none;
+}
+
+.controller{
+    cursor: pointer;
+}
+
+.panel{
+    display:flex;
+    background-color:bisque;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plugboard{
+    display: none;
+}
+
+.on {
+    background-color: yellow;
+}
+
+.rotors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rotor-btn:hover{
+    color: black;
+}
+
+.rotor{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotor-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+
+.rotor-controls{
+    visibility: hidden;
+    border: black 1px solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.light, .key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.key{
+    box-shadow: gray 0px 4px;
+}
+
+.key:active{
+    box-shadow: gray 0px 2px;
+    transform: translate(0px,2px);
+}
+
+.panel-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: auto;
+}
+
+.plug-btn {
+    padding:5px
+}
+
+.conection-label{
+    color: blueviolet;
+    text-align: center;
+}
